@@ -11,7 +11,7 @@ app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, '../styles/style.css'))
 });
 
-const port = process.env.PORT || //choose port number
+const port = process.env.PORT || 5050;
 
 app.listen(port, () => {
     console.log(`BBQ running on port ${port}.`)
