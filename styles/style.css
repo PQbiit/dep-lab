@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: yellow;
+    background-color: #feda10;
     margin-left: 25vw;
     margin-top: 25vh;
     width:50vw;
@@ -31,6 +31,7 @@ button{
     background-color: black;
     color: white;
     font-family: helvetica;
+    font-weight: bold;
     border: 0;
 }
 
@@ -41,7 +42,7 @@ img{
 }
 
 h2, p, label{
-    font-family: Helvetica;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 label{
     font-size: small;
