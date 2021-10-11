@@ -2,6 +2,10 @@ body{
     margin: 0px;
 }
 
+#nav-bar{
+    background-color: black;
+}
+
 #center-div{
     display: flex;
     flex-direction: column;
@@ -41,9 +45,15 @@ img{
     margin: 0;
 }
 
-h2, p, label{
+h2, p, label,a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
 label{
     font-size: small;
 }
