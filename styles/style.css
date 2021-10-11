@@ -45,7 +45,7 @@ img{
     margin: 0;
 }
 
-h2, p, label,a{
+h2, p, label,a,.card-text{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -61,4 +61,32 @@ label{
 p{
     text-align: center;
     font-size: small;
+}
+
+.menu-item{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-image {
+    width: 300px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-price{
+    color: #feda10;
+    font-weight: bold;
 }
